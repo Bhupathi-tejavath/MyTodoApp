@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 5000;
 // app.use(cors());
 app.use(
   cors({
-    origin: "https://owntodoapp-frontend.onrender.com",
+    origin: "https://my-todo-app-tau-blush.vercel.app",
     credentials: true,
   })
 );
