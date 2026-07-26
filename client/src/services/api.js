@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://mytodoapp-w3v9.onrender.com",
+  baseURL: "https://mytodoapp-w3v9.onrender.com/api",
 });
 
 API.interceptors.request.use((config) => {
